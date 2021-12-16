@@ -1,0 +1,15 @@
+@mixin fontITC {
+  @font-face {
+    font-family: "ITC Avant Garde";
+    src: url("../assets/fonts/ITC-Avant-Garde.otf");
+    font-style: normal;
+  }
+}
+
+@mixin youtubeSans {
+  @font-face {
+    font-family: "Youtube Sans";
+    src: url("../assets/fonts/youtube-sans-light.ttf");
+    font-style: normal;
+  }
+}
